@@ -40,9 +40,7 @@ const Result = ({ answers }) => {
   return (
     <ResultContainer>
       <ResultTitle>Your Personality Test Result</ResultTitle>
-      <ResultText>
-        Based on your answers, here's your personality video:
-      </ResultText>
+      <ResultText>Based on your answers, here's your result:</ResultText>
       <VideoContainer>
         <video
           ref={videoRef}
